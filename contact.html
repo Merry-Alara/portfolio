@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Maryam's World</title>
+ 
+  <style>
+
+
+    body {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      background: #ffeef7;
+      color: #333;
+    }
+
+
+    header {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: linear-gradient(135deg, #ffb3c6, #ffcce0);
+      color: white;
+      border-bottom: 5px solid #ffd6e7;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+
+    }
+
+    nav {
+      
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    nav a {
+
+      text-decoration: none;
+      color: white;
+      background: #ff99bb;
+      padding: 0.6rem 1rem;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+
+      background: #ff85ad;
+    }
+
+    section {
+
+      margin: 2rem auto;
+      max-width: 800px;
+      padding: 2rem;
+      text-align: center;
+      background: #fff4f8;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info p {
+      
+      margin: 1rem 0;
+      font-size: 1.2rem;
+    }
+
+    .message-form {
+      margin: 2rem auto;
+      text-align: left;
+    }
+
+    .message-form label {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .message-form input {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 2px solid #ffb3c6;
+      border-radius: 10px;
+      font-family: inherit;
+    }
+    .message-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 2px solid #ffb3c6;
+      border-radius: 10px;
+      font-family: inherit;
+    }
+
+    .message-form textarea {
+      height: 120px;
+    }
+
+    .message-form button {
+      background: #ff85ad;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .message-form button:hover {
+      background: #ff99bb;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .social-media a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5rem;
+      background: #ff85ad;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .social-media a:hover {
+      transform: scale(1.2);
+      background: #ff99bb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ffcce0;
+      border-top: 5px solid #ffd6e7;
+      font-size: 0.9rem;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 3rem 1rem;
+      }
+
+      nav a {
+        padding: 0.6rem 1rem;
+      }
+
+      section {
+        max-width: 90%;
+        padding: 1rem;
+      }
+
+      .social-media a {
+        font-size: 1.2rem;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <header>
+
+    <h1>Contact Maryam</h1>
+    <nav>
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+
+  </header>
+
+
+  <section>
+
+    <h2>Get in Touch</h2>
+
+    <div class="contact-info">
+
+      <p>Email me at <a href="mailto:maryamanwar.095@gmail.com">maryamanwar.095@gmail.com</a></p>
+      <p>Call me at <b>+923041051100</b></p>
+
+    </div>
+
+
+    <div class="message-form">
+
+      <h3>Leave a Message</h3>
+      <form action="submit_form.php" method="post">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+
+    </div>
+
+
+    <div class="social-media">
+      <a href="https://wa.me/03041051100" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/maryam-anwar-28292033b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/merry10___?igsh=ZTl2b3B0M20zYTYw" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/maryaanwar" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.snapchat.com/add/maryamanwer75?share_id=P-e4ux6L5uo&locale=en-US " target="_blank" title="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+    </div>
+  </section>
+
+
+  <footer>
+
+    <p>© 2024 Maryam Anwar. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>

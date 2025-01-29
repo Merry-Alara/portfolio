@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Maryam's World</title>
+  <style>
+
+
+    body {
+
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      background: #ffeef7;
+      color: #333;
+
+    }
+
+    header {
+
+      text-align: center;
+      padding: 3rem 2rem;
+      background: linear-gradient(135deg, #ffb3c6, #ffcce0);
+      color: white;
+      border-bottom: 5px solid #ffd6e7;
+
+    }
+
+
+    header h1 {
+
+      font-size: 2rem;
+      margin: 0;
+
+    }
+
+
+    nav {
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+
+    }
+
+
+    nav a {
+
+      text-decoration: none;
+      color: white;
+      background: #ff99bb;
+      padding: 0.6rem 1rem;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+
+    }
+
+    nav a:hover {
+
+      background: #ff85ad;
+
+    }
+
+
+    section {
+
+      margin: 2rem auto;
+      max-width: 800px;
+      padding: 2rem;
+      text-align: center;
+      background: #fff4f8;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+    }
+
+
+    .gallery {
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+    }
+
+
+    .gallery img {
+
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 5px solid #ffd6e7;
+      border-radius: 15px;
+      transition: transform 0.3s, box-shadow 0.3s;
+
+    }
+
+
+    .gallery img:hover {
+
+      transform: scale(1.1);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+    }
+
+
+    footer {
+
+      text-align: center;
+      padding: 1rem;
+      background: #ffcce0;
+      border-top: 5px solid #ffd6e7;
+      font-size: 0.9rem;
+      color: #fff;
+
+    }
+
+
+    @media (max-width: 768px) {
+
+      header {
+        padding: 3rem 1rem;
+      }
+
+      nav a {
+        padding: 0.6rem 1rem;
+      }
+
+      section {
+        max-width: 90%;
+        padding: 1rem;
+      }
+
+      .gallery img {
+        width: 120px;
+        height: 120px;
+      }
+
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Welcome to Maryam's World</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+
+  </header>
+
+  <section>
+
+    <h2>My Journey</h2>
+
+    <p>
+      My name is <b>Maryam Anwar</b>, a dreamer and a doer who finds inspiration in the smallest of details. I believe in crafting stories from everyday moments, bringing imagination to life, and embracing creativity with an open heart. Whether exploring the wonders of the digital world or finding joy in the simplicity of nature, I thrive on transforming ideas into reality and turning challenges into opportunities to grow.
+    </p>
+
+  </section>
+
+  <section>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/maryam.jpg" alt="Maryam">
+      <img src="images/flower1.jpg" alt="Flower 1">
+      <img src="images/flower2.jpg" alt="Flower 2">
+      <img src="images/flower3.jpg" alt="Flower 3">
+    </div>
+    
+  </section>
+
+  <footer>
+    
+    <p>© 2024 Maryam Anwar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
